@@ -1,0 +1,40 @@
+<div class="container" style="margin:100px auto">
+	<div class="row">
+		<div class="col-6 offset-3">
+			<h2>Agregar un nuevo resultado</h2>
+			<form action="/admin/resultados/agregar" method="post" enctype="multipart/form-data" />
+				<div class="mb-3 row">
+					<input type="text" class="form-control" placeholder="Deporte" name="deporte">
+				</div>
+				<div class="mb-3 row">
+					<textarea type="text" class="form-control" placeholder="Categoría" name="categoria"></textarea>
+				</div>
+				<div class="mb-3 row">
+					<textarea type="text" class="form-control" placeholder="Fecha N° (o amistoso)" name="fecha"></textarea>
+				</div>
+				<div class="mb-3 row">
+					<textarea type="text" class="form-control" placeholder="Cancha o club" name="cancha"></textarea>
+				</div>
+				<div class="mb-3 row">
+					<textarea type="text" class="form-control" placeholder="Club Local" name="local"></textarea>
+				</div>
+				<div class="mb-3 row">
+					<textarea type="text" class="form-control" placeholder="Puntos Local" name="puntosl"></textarea>
+				</div>
+				<div class="mb-3 row">
+					<textarea type="text" class="form-control" placeholder="Club Visitante" name="visitante"></textarea>
+				</div>
+				<div class="mb-3 row">
+					<textarea type="text" class="form-control" placeholder="Puntos Visitante" name="puntosv"></textarea>
+				</div>
+				<div class="mb-3 row">
+					<label>Imagen: <input type="file" name="imagen" id="imagen"/></label>
+				</div>
+				<button type="submit" class="btn btn-primary">Agregar</button>
+			</form>
+			{{#if error}}
+				<p>{{message}}</p>
+			{{/if}}
+		</div>
+	</div>
+</div>

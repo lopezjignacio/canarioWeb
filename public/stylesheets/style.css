@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+header{
+  padding: 1em 0;
+  flex-direction: row;
+  height: 150px;
+  background-color: black;
+}
+
+header h1{
+  font-family: 'Dosis', sans-serif;
+  color: #FFD700;
+  /*text-shadow: 5px 5px 5px #FFD700;*/
+  /*font-weight: 700;*/
+  /*font-style: italic;*/
+  font-size: 3em;
+  display: inline-block;
+  /*position: relative;*/
+  bottom: 0.8em;
+  margin: 0;
+}
+
+img{
+  /*float: left;*/
+  height: 100px;
+}
+
+footer{
+  background-color: #FFD700;
+  clear: both;
+  color:#333;
+  line-height: 0.5em;
+  padding: 1em 0;
+  /*margin-top: 1.5em;*/
+  border-top: solid 1px black;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer p{
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+}
+
+footer address{
+  text-align: right;
+}
+
+.holder{
+  font-family: 'Lato', sans-serif;
+    background-color: #FFD700;
+  color: black;
+}
+
+h2{
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2em;
+}
